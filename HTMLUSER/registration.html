@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="ThemeBucket">
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <title>Login</title>
+
+    <!--Core CSS -->
+    <link href="bs3/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-reset.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-responsive.css" rel="stylesheet" />
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+  <body class="login-body">
+
+    <div class="container">
+
+      <form class="form-signin" >
+        <h2 class="form-signin-heading">Đăng Ký Ngay</h2>
+        <div class="login-wrap">
+            <label>Nhập Thông Tin Người Dùng</label>
+            <input type="text" class="form-control txttenuser" placeholder="Họ tên" autofocus>
+            <input type="text" class="form-control txtnamsinhuser" placeholder="Năm sinh" autofocus>
+            <input type="text" class="form-control txtsdtuser" placeholder="Số điện thoại" autofocus>
+            <label>Nghề nghiệp</label>
+            <select class="form-control m-bot15 select-nghenghiep"></select>
+            <label>Học vấn</label>
+            <select class="form-control m-bot15 select-hocvan"></select>
+            <select class="form-control m-bot15 txtdiachiuser">
+                <option >Tất cả thành phố</option>
+                <option >Hà Nội</option>
+                <option >TP.Hồ Chí Minh</option>
+                <option >An Giang</option>
+                <option >Bà Rịa - Vũng Tàu</option>
+                <option >Bình Dương</option>
+                <option >Bình Phước</option>
+                <option >Bình Thuận</option>
+                <option >Bình Ðịnh</option>
+                <option >Bạc Liêu</option>
+                <option >Bắc Giang</option>
+                <option >Bắc Kạn</option>
+                <option >Bắc Ninh</option>
+                <option >Bến Tre</option>
+                <option >Cao Bằng</option>
+                <option >Cà Mau</option>
+                <option >Cần Thơ</option>
+                <option >Đà Nẵng</option>
+                <option >Đắk Lắk</option>
+                <option >Đắk Nông</option>
+                <option >Điện Biên</option>
+                <option >Đồng Nai</option>
+                <option >Đồng Tháp</option>
+                <option >Gia Lai</option>
+                <option >Hà Giang</option>
+                <option >Hà Nam</option>
+                <option >Hà Tĩnh</option>
+                <option >Hải Dương</option>
+                <option >Hải Phòng</option>
+                <option >Hậu Giang</option>
+                <option >Hòa Bình</option>
+                <option >Hưng Yên</option>
+                <option >Khánh Hòa</option>
+                <option >Kiên Giang</option>
+                <option >Kon Tum</option>
+                <option >Lai Châu</option>
+                <option >Lào Cai</option>
+                <option >Lâm Đồng</option>
+                <option >Long An</option>
+                <option >Nam Định</option>
+                <option >Nghệ An</option>
+                <option >Ninh Bình</option>
+                <option >Ninh Thuận</option>
+                <option >Phú Thọ</option>
+                <option >Phú Yên</option>
+                <option >Quảng Bình</option>
+                <option >Quảng Nam</option>
+                <option >Quảng Ngãi</option>
+                <option >Quảng Ninh</option>
+                <option >Quảng Trị</option>
+                <option >Sóc Trăng</option>
+                <option >Sơn La</option>
+                <option >Tây Ninh</option>
+                <option >Thái Bình</option>
+                <option >Thái Nguyên</option>
+                <option >Thanh Hóa</option>
+                <option >Thừa Thiên Huế</option>
+                <option >Tiền Giang</option>
+                <option >Trà Vinh</option>
+                <option >Tuyên Quang</option>
+                <option >Vĩnh Long</option>
+                <option >Vĩnh Phúc</option>
+                <option >Yên Bái</option>
+            </select>
+            <select class="form-control m-bot15 txtgioitinhuser">
+              <option>Giới tính</option>
+              <option>Nam</option>
+              <option>Nữ</option>
+            </select>
+
+            <label>Nhập Thông Tin Tài Khoản</label>
+            <input type="text" class="form-control txtusername" placeholder="User Name" autofocus>
+            <input type="password" class="form-control txtpassworduser" placeholder="Password">
+ 
+            <button class="btn btn-lg btn-login btn-block btn_dangky" type="button">Đăng ký</button>
+
+            <div class="registration">
+                Bạn đã có tài khoản.
+                <a class="" href="./login.html">
+                    Login
+                </a>
+            </div>
+
+        </div>
+
+      </form>
+
+    </div>
+
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+
+    <!--Core js-->
+    <script src="js/jquery.js"></script>
+    <script src="bs3/js/bootstrap.min.js"></script>
+    <script src="./js/bootbox.min.js"></script>
+    <!-- custom Js -->
+    <script src="./JSUSER/Main.js"></script>
+    <script src="./JSUSER/register.js"></script>
+
+  </body>
+</html>
